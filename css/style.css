@@ -134,16 +134,13 @@ img {
 
     .container {
         max-width: 750px;
-        
     }
 
 }
-
 @media screen and (max-width: 480px) {
 
     .container {
         max-width: 460px;
-        margin: 0 auto;
     }
 
 
@@ -183,3 +180,11 @@ img {
 
 }
 
+
+
+@media screen and (min-width: 481px) {
+
+    .container {
+        max-width: 100%;
+    }
+}
